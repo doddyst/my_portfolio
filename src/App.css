@@ -146,7 +146,7 @@ img{
 /* ---------BUTTON--------- */
 .button{
   display: inline-block;
-  background-color: var(--text-color);
+  background-color: var(--title-color-dark);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
