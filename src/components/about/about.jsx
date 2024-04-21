@@ -14,7 +14,7 @@ const About = () => {
       <div className='about_data'>
         <Info />
         
-        <p className='about_description'>1fafdadfaf dasf asd ga ufya siufaij halkjd hfak hdsadadadsadad adsaah akj</p>
+        <p className='about_description'>Hi my name is Doddy Setiawan, i'm a web developer that recently graduated from ITB STIKOM BALI, pleasure meeting with you all.</p>
 
         <a download="" href={CV} className='button button--flex'>
             download CV

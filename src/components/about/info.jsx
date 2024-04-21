@@ -17,8 +17,8 @@ const Info = () => {
 
         <div className='about_box'>
         <i class="uil uil-headphones about_icon"></i>
-            <h3 className='about_title' >asd</h3>
-            <span className='about_subtitle'>adsda</span>
+            <h3 className='about_title' >Contact</h3>
+            <span className='about_subtitle'>Online 24/7</span>
         </div>
       
     </div>
