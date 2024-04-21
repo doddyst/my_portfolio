@@ -1,0 +1,95 @@
+.skills .container{
+    background-color: var(--container-color);
+    border:1px solid rgba(0,0,0,0.1);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.skills .container .row{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-wrap: wrap;
+    gap: 1.8rem;
+}
+
+.skills .container .bar{
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 1rem;
+    background: var(--container-color);
+    transition: 0.3 ease;
+}
+
+.skills .container .bar:hover{
+    box-shadow: 0 4px 10px black;
+    transform: scale(1.03);
+}
+
+.skill .container .bar .info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.skill .container .bar .info span{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-left: 0.5rem;
+}
+
+/* -------------BREAKPOINTS--------------- */
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .skills .container{
+        width: 50%;
+        margin-bottom: 1rem;
+        margin: auto;
+    }
+    .skills .container .row{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 0.2rem 0.2rem;
+        gap: 1rem;
+    }
+    .skill .container{
+        margin-top: 5px;
+        width: 100%;
+    }
+    
+  }
+  
+  /* For medium devices */
+  
+  @media screen and (max-width: 576px) {
+    .skills .container{
+        margin: auto;
+        width: 70%;
+        padding: 0;
+    }
+    .skills .container .row{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 1rem 0.2rem;
+        gap: 1rem;
+    }
+    .skill .container{
+        margin-top: 5px;
+        width: 100%;
+    }
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+    .skills .container .row{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 1rem;
+        padding: 2rem 0.2rem 2rem 0.2rem;
+        gap: 1rem;
+    }
+  } 
