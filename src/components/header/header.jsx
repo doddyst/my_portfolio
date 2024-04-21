@@ -8,7 +8,7 @@ const Header = () => {
   return (
    <header className='header'>
     <nav className='nav container'>
-        <a href="index.html" className='nav_logo'>Folio.</a>
+        <a href="index.html" className='nav_logo'>Folio<b>.</b></a>
     
         <div className={Toggle ? "nav_menu show-menu" : "nav_menu"}>
             <ul className='nav_list grid'>
@@ -30,11 +30,11 @@ const Header = () => {
                 </a>
                 </li>
 
-                <li className='nav_item'>
-                <a href="#experience" className='nav_link'>
-                    <i class="uil uil-graduation-cap nav_icon"></i>EXPERIENCE
+                {/* <li className='nav_item'>
+                <a href="#qualification" className='nav_link'>
+                    <i class="uil uil-graduation-cap nav_icon"></i>QUALIFICATION
                 </a>
-                </li>
+                </li> */}
 
                 <li className='nav_item'>
                 <a href="#portfolio" className='nav_link'>

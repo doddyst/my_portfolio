@@ -26,6 +26,12 @@
     color :#3d535f;
     letter-spacing: 3px;
     text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+b{
+    font-size: 70px;
+    color:#87CEEB;
 }
 
 .nav_list{
